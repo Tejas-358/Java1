@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class Main
+public class Output
 {
     public static void main(String[] k) throws IOException {
         int n, fact = 1, con = 1;
@@ -49,7 +49,7 @@ public class Main
                 }
                 case 3: {
                     fact = 1;
-                    System.out.println("Enter number 3 : ");
+                    System.out.println("Enter number for Factorial : ");
                     n = sc.nextInt();
                     for (int i = 1; i <= n; i++)
                     {
@@ -63,7 +63,7 @@ public class Main
                     fact = 1;
                     try
                     {
-                        System.out.println("Enter number 4 : ");
+                        System.out.println("Enter number for Factorial : ");
                         n = Integer.parseInt(rd.readLine());
                         for (int i = n; i > 0; i--)
                         {
