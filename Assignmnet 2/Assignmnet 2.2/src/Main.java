@@ -1,6 +1,17 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {3, 8, 10, 11, 23};
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter count of inputs : ");
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        System.out.println("Enter elements : ");
+        for(int i=0;i<n;i++)
+        {
+            nums[i] = sc.nextInt();
+        }
         int index = findNearestNeighbors(nums);
         System.out.println("Index of the first number: " + index);
     }
