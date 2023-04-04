@@ -46,7 +46,7 @@ public class Main {
                     break;
                 case 4:
                     System.out.print("Enter name to search: ");
-                    name = input.nextLine();
+                    name = input.next();
                     manager.searchByName(name);
                     break;
                 case 5:
