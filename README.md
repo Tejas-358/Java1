@@ -48,4 +48,13 @@ createDeck(), printCard(), printDeck (),sameCard(),compareCard(), sortCard(), fi
 
 Classes : CardGame, Card
 
+# Assignmnet 5 :
+Part 5.1: Implement the generic Shapes class as an interface s so that we can implement concrete classes like circle, triangle, rectangle class from it.
+
+Classes : Main, Shape, Triangle, Rectangle, Circle
+
+Part 5.2: In this exercise, take an abstract class which is defined below and develop two classes. The abstract class represents the basic building block for employees in a personnel database.
+
+Classes - Main, Employee, NormalEmployee, BonusEmployee
+
 
