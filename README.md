@@ -57,4 +57,18 @@ Part 5.2: In this exercise, take an abstract class which is defined below and de
 
 Classes - Main, Employee, NormalEmployee, BonusEmployee
 
+# Assignmnet 6 :
+Part 6.1: An implementation of IntStack (integer stack) that uses fixed
+storage as well as "growable" using interface.
+
+Create a user defined package “pkg_Stack” where the interface is stored.
+The other two complete classes will need to import the package
+‘pkg_Stack’ and then use it.
+
+Classes : Main, Fixed_stk, Growable_stk, Interface_STK
+
+Part 6.2: Program to implement the following Multiple Inheritance.
+
+Classes - Main, Result, Student, Exam
+
 
