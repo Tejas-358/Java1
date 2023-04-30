@@ -71,4 +71,38 @@ Part 6.2: Program to implement the following Multiple Inheritance.
 
 Classes - Main, Result, Student, Exam
 
+# Assignmnet 7 :
+Write a Java application that will be able to add, subtract, multiply, divide,
+compare, convert to floating point, and find absolute value for rational
+numbers, with exception handling
+
+Classes : Main, RationalNumber
+
+# Assignmnet 8 :
+Part 8.1 : Write a Java Program to find the factorial of ‘n’ integers (as
+command line arguments CLA). Write your own exception “MyExcep” to
+validate integer values to be in certain range.
+
+Classes : Main, MyExcep
+
+Part 8.2:
+Define an exception class called “NOMATCHEXCP” that is thrown when the
+string from keyboard is not equal to “India”. Write a Demo program using
+try-catch block that shows the use of this user-defined exception. class
+NOMATCHEXCP should have a parameterized constructor and the
+exception message generated should show the line number and the
+erroneous String that was inputted by the user.
+
+Classes : Demo, NoMatchExcp
+
+# Assignmnet 9 :
+Write a Java Program demonstrating the database connectivity in java.
+
+Classes : Main, Database, Functions
+
+# Assignmnet 10 :
+Write a Java Program for Thread Creating and use of its various methods.
+
+Classes : Main, MyThread
+
 
